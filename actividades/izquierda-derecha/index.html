@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height initial-scale=1">
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">  
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <title>Actividad izquierda y derecha</title>
+</head>
+<body data-activity="home activity" data-name-activity="left and right">    
+    <header class="header">
+        <!-- logo -->
+        <div class="header_container-menu">
+            <div class="menu-item menu-item1">
+                <a href="#" class="btn_logo">Janus</a>
+                
+                <!-- home -->
+                <a href="/menu.html" class="header_btn btn_home"></a>
+
+                <!-- botón para el sonido -->
+                <button data-sound='home' class="header_btn btn_sound-enable" id="btn-sound"></button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- En esta sección se encuentra la recompensa del juego, que son monedas, aquí aparece la cantidad de monedas que lleva el jugador -->
+    <section class="score-container score-container--activity">
+            <img src="/assets/images/utils/coin.png" class="coin-image">
+            <p class="amount-of-coins" id="coins-activity">0</p>
+    </section>
+    <img class="sun" src="/assets/images/utils/sun.png">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-first">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-second">
+
+
+    <!-- Esta etiqueta es la principal porque va el diseño principal de la aplicación, se agrego el botón de jugar y el nombre de la aplición -->
+    <main class="main-central-container">
+            <div class="title-design title-design-left-right-activity"></div>
+            <img class="direction-design" src="/assets/images/utils/direction.png">
+            <a href="leccion.html" class="btn-play"></a>
+    </main>
+
+        <!-- colina -->
+    <div class="hill-design"></div> 
+
+    <script src="/scripts/sound.js" ></script>
+    <script type="module" src="/scripts/activity.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.main-exercise-container{
+    top:15vh;
+    display: grid;
+    grid-template: "instruction instruction instruction"
+                    "option-color option-color option-color"
+                    "btn-back  design  btn-forth";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 1fr;
+}
+

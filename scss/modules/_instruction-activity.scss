@@ -1,0 +1,31 @@
+//Clases que sirven para aplicar estilos al contenedor que tiene la instrucción del ejercicio
+
+.instruction-container{
+    width:100%;
+    height: auto;
+    grid-area: instruction;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.instruction_text{
+    text-align: center;
+    color:#106e8d;
+    // color: rgb(22, 22, 22);
+    font-size:30px;
+    font-weight: bold;
+}
+.instruction_btn-audio{
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: $primary-color;
+    @include background('/assets/images/button/icon-audio.png', $primary-color, 80%, 80%);
+}
+
+.instruction_btn-audio:hover{
+    background-color: $secondary-color;
+}
+

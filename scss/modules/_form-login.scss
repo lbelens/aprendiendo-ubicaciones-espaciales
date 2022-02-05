@@ -1,0 +1,60 @@
+.form-login{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+ }
+
+ .form-login_area{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.label-login{
+    color: rgb(22, 22, 22);
+    font-size:4.5vmin;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-next-form{
+    width: 11vmin;
+    height:7vmin;
+    position: absolute;
+    border-radius: 30px;
+    margin-bottom: 0;
+    right: 20px;
+    @include background('/assets/images/utils/arrow-next.png',$primary-color,80%, 80%);
+   justify-self: flex-start;
+}
+
+.btn-next-form--disabled{
+    pointer-events: none;
+    background-color: rgba($color: $primary-color, $alpha: .3);
+}
+
+
+.btn-next-form--enabled{
+    pointer-events: auto;
+    background-color: $primary-color;
+}
+
+.btn-next-form:hover{
+    background-color: $secondary-color;
+}
+
+.form-login_footer{
+    margin-top: 18px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+}
+

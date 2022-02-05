@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">  
+    <title>Lección</title>
+</head>
+<body>
+    <!-- Header de la aplicación -->
+    <header class="header">
+        <!-- logo -->
+        <div class="header_container-menu">
+            <div class="menu-item menu-item1">
+                <a href="#" class="btn_logo">Janus</a>
+                <!-- home -->
+                <a href="/menu.html" class="header_btn btn_home"></a>
+                <!-- botón para el sonido -->
+                <button data-sound='play' class="header_btn btn_sound-enable" id="btn-sound"></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-central-container main-lection-container">
+        <!-- Section que contiene los diseños bases para posisionar los persojes por ejemplo la imagén de un árbol,  pasto, flores, mesa, etc  -->
+        <section class="area-design">
+            <div class="character character-lection">
+                <!-- <img class="character-lection--one" src="/assets/images/characters/rabbit.svg"> -->
+                <lottie-player class="character-lection--one" id="rabbit-left" src="https://assets4.lottiefiles.com/packages/lf20_7yit7o0e.json" background="transparent" speed="1" style="width: 150px; height:200px;"></lottie-player>
+            </div>
+            <div class="container-direction">
+                <button class="btn-left"></button>
+                <img class="base-direction" src="/assets/images/utils/base-direction.png">
+                <button class="btn-right"></button>
+            </div>
+            <!-- <img class="base-figure-lection" src="/assets/images/utils/direction-lection.png"/>   -->
+            <div class="character character-lection">
+                <!-- <img class="character-lection--two" src="/assets/images/characters/rabbit.svg"> -->
+                <lottie-player class="character-lection--two" id="rabbit-right" src="https://assets4.lottiefiles.com/packages/lf20_7yit7o0e.json" background="transparent" speed="1" style="width: 150px; height:200px;"></lottie-player> <!--animaciones obtenidas de Lottie!-->
+            </div>
+        </section>
+
+        <section class="navigation-btn-container">
+            <button  class="navigation-btn navigation-btn_back"> </button>
+        </section>
+        <section class="navigation-btn-container">
+            <button class="navigation-btn navigation-btn_next"></button> 
+        </section>
+    </main>
+    <div class="lawn-design"></div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/scripts/sound.js" ></script>
+    <script type="module" src="/scripts/lection.js" ></script> 
+
+</body>
+</html>

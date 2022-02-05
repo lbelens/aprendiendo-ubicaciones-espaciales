@@ -1,0 +1,54 @@
+.header_container-menu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.menu-item{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap:50px;
+}
+
+.menu-item2{    
+   justify-content: flex-end;
+}
+
+.header_btn:hover{
+    background-color:$secondary-color;
+    transform: scale(1.1);
+}
+
+.btn_logo{
+    color: #4992aa;
+    font-size: 5vmin;
+    padding-left: 20px;
+}
+
+
+.btn_home{
+    display:block;
+    border-radius: 50%;
+    width: 5vmin;
+    height: 5vmin;
+    @include background('/assets/images/button/icon-home.png', $primary-color, 80%, 75%);
+}
+
+#btn-sound{
+    border-radius: 50%;
+    width: 5vmin;
+    height: 5vmin;
+}
+
+.btn_sound-enable{
+    @include background('/assets/images/button/icon-sound.png', $primary-color, 85%, 60%);
+}
+
+.btn_sound-disable{
+    @include background('/assets/images/button/icon-mute.png', $primary-color, 85%, 60%);
+}
+

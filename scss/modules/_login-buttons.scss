@@ -1,0 +1,44 @@
+.btn-login{
+    display: inline-flex;
+    align-items: center;
+    height: 70%;
+    font-size: 3.3vmin;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    font-family: $font-type;
+}
+
+.btn-sign-up{
+    margin-right: 50px;
+    background-color: #69b7d1;
+    color:white;
+}
+
+.btn-sign-up:hover{
+    background-color: #5ad4fd;
+    transform: scale(1.1);
+}
+
+.btn-sign-in{
+    background-color: rgb(98, 209, 94);
+    color: white;
+    margin-right: 50px;
+
+}
+
+.btn-sign-in:hover{
+    background-color: rgb(87, 226, 82);
+    transform: scale(1.1);
+}
+
+.btn-exit{
+    background-color: rgb(211, 24, 24);
+    color: white;
+    margin-right: 50px;
+}
+
+.btn-exit:hover{
+    background-color: rgb(228, 35, 35);
+    transform: scale(1.1);
+}

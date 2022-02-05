@@ -1,0 +1,34 @@
+
+//success
+.text-success{
+    font-size: 6vmin;
+    text-align: center;
+    color: rgb(0, 84, 153);
+}
+
+//sombra para el conejito
+.sombra{
+    width: 100px;
+    height: 20px;
+    background-color: rgba(32, 32, 32, 0.171);
+    border-radius: 50%;
+
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-name: movingShadow;
+}
+
+@keyframes movingShadow {
+    0% {
+        transform: translate(0,10%);
+        transform: scale(.8);
+    }
+  
+    100% {
+        transform: translate(0,-10%);
+        transform: scale(1);
+    }
+}
+

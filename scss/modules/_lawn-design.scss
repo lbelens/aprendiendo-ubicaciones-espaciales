@@ -1,0 +1,13 @@
+//estilos para crear el césped que sale en la página Actividad
+.lawn-design{
+    /* border-radius: 50% 50% 56% 44% / 100% 100% 0% 0%; */
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background: $grass-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 0;
+    z-index: -2;
+}

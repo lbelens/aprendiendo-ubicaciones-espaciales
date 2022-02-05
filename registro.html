@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/icons/logo.png">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <title class="title">Registro</title>
+</head>
+
+<body>
+     <!-- Header de la aplicación -->
+ <header class="header">
+    <!-- logo -->
+    <div class="header_container-menu">
+        <div class="menu-item menu-item1">
+            <a href="" class="btn_logo header_btn--hover">Janus</a>
+            
+            <!-- home -->
+            <a href="home.html" class="header_btn btn_home header_btn--hover"></a>
+
+            <!-- botón para el sonido -->
+            <button data-sound='home' class="header_btn btn_sound-enable header_btn--hover" id="btn-sound"></button>
+        </div>
+
+
+        <div class="menu-item menu-item2">
+            <a href="login.html" class="btn-login btn-sign-in">Iniciar sesión</a>
+        </div>
+    </div>
+</header>
+
+    <img class="sun" src="/assets/images/utils/sun.png">
+    <img src=" /assets/images/utils/cloud.png" class="cloud cloud-first">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-second">
+
+    <main class="main-central-container">
+        <form action="" class="form-login">
+            <div class="form-login_area">
+                    <label class="label-login">Elige un avatar</label>
+                    <div class="avatar-chosen"> </div>
+                    <div data-container="avatar" class="form-login_area-avatar">
+                        <button class="avatar avatar-1" data-avatarName="user_girl_01"></button>
+                        <button class="avatar avatar-2" data-avatarName="user_girl_02"></button>
+                        <button class="avatar avatar-3" data-avatarName="user_boy_03"></button>
+                        <button class="avatar avatar-4" data-avatarName="user_girl_04"></button>
+                        <button class="avatar avatar-5" data-avatarName="user_girl_05"></button>
+                        <button class="avatar avatar-6" data-avatarName="user_boy_06"></button>
+                        <button class="avatar avatar-7" data-avatarName="user_boy_07"></button>
+                        <button class="avatar avatar-8" data-avatarName="user_boy_08"></button>
+                        <div class="form-login_footer frm-footer-avatar">
+                            <button class="btn-next-form btn-next-form--disabled" id="btn-next-avatar"></button>
+                        </div>
+                    </div>
+            </div>
+        </form>
+    </main>
+
+    <!-- colina -->
+    <div class="hill-design"></div>
+
+    <script type="module" src="/scripts/sign_up.js"></script>
+    <script src="../scripts/sound.js"></script>
+</body>
+
+</html>

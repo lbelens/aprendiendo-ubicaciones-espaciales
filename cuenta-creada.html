@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <title>cuenta creada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="header_container-menu">
+            <div class="menu-item menu-item1">
+                <a href="" class="btn_logo header_btn--hover">Janus</a>
+                
+                <!-- home -->
+                <a href="index.html" class="header_btn btn_home header_btn--hover"></a>
+    
+                <!-- botón para el sonido -->
+                <button data-sound='home' class="header_btn btn_sound-enable header_btn--hover" id="btn-sound"></button>
+            </div>
+    
+            <div class="menu-item menu-item2">
+                <button class="btn-login btn-sign-in" onclick="window.location.replace ('login.html')"> Iniciar sesión </button>
+            </div>
+        </div>
+    </header>
+    <img class="sun" src="/assets/images/utils/sun.png">
+    <img src=" /assets/images/utils/cloud.png" class="cloud cloud-first">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-second">
+    
+    <main class="main-central-container">
+            <p class="text-success">
+                Tu cuenta se creó correctamente
+            </p>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_c8xrkbh1.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            <div class="sombra"></div>
+    </main>
+    
+    <!-- colina -->
+    <div class="hill-design"></div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/scripts/sound.js" ></script>
+</body>
+</html>

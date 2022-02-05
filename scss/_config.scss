@@ -1,0 +1,23 @@
+
+/*******************VARIABLES***************/
+//paleta de colores: color primario, secundario, tercer color
+
+$primary-color: hsl(12, 78%, 56%);
+$secondary-color: hsl(12, 92%, 60%);
+
+
+$bg-header-color: hsla(0, 0%, 100%, 0.431);
+$bg-body-color:linear-gradient(0deg,  hsl(197, 100%, 73%) 35.39%, hsl(195, 100%, 79%) 49.61%);
+
+//colores del césped
+$grass-color: linear-gradient(180deg,  hsl(112, 42%, 51%) 21.88%, hsl(112, 50%, 52%)  75.52%);
+
+//tamaño de fuentes
+$size-title: 100vmin;
+
+//font-family
+$font-type: 'Balsamiq Sans';
+
+
+//variables de layaout: por ejemplo espacio entre elementos, margin, padding etc. gutter(separación entre columnas), max-width (limite de pantallas) 
+$max-width: 1200px;

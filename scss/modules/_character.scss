@@ -1,0 +1,40 @@
+.character
+{ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.retroalimentacion{
+    top: 0;
+    position: absolute;
+    width: 125%;     
+    height: 100%;   
+}
+
+.validar{
+   top: 0;
+   position: absolute;
+   width: 90%;
+   height: 100%;
+}
+
+.character-activity{
+    height: 100%;
+    width:70px;
+}
+.character-lection{
+    height: 100%;
+    width:120px;
+}
+
+.character-lection--one{
+    align-self: flex-end;
+    width:100px;
+}
+
+.character-lection--two{
+    align-self: flex-end;
+}

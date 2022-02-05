@@ -1,0 +1,51 @@
+.coins{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    top:50%;
+    display: none;
+}
+
+.container-coin{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    z-index: 5;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-fill-mode:forwards;
+    animation-name: movingAward;
+}
+
+.effect-coin{
+    position: absolute;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-name: movingCoin;
+    width: 50px;
+    top: 25%;
+    left: 25%;
+}
+
+
+@keyframes movingAward{
+     0%{
+         opacity: 0;
+     }
+     30%{    
+         opacity: 100;
+     }
+     90%{
+         opacity: 100;
+     }
+    100%{
+         transform: translateY(-50px);
+         opacity: 0;
+    }
+}
+
+ @keyframes movingCoin{
+     0% {
+         transform:  rotateY(360deg)
+     }
+ }

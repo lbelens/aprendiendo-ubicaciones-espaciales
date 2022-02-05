@@ -1,0 +1,63 @@
+.avatar-chosen{
+    border: 2px solid #dadada;
+    width:15vmin;
+    height:15vmin;
+    border-radius: 50%;
+    @include background('/assets/images/utils/user.png',transparent,80%, 80%);
+    align-self: center;
+}
+
+.form-login_area-avatar{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto auto;
+    grid-gap:3px;
+    justify-content: space-evenly;
+}
+
+.avatar:hover{
+    background-color:#cef3ff;
+}
+.avatar{
+    width: 11vmin;
+    height: 11vmin;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+    &-1{
+        @include background('/assets/images/avatars/user_girl_01.svg', transparent,100%, 100%);
+    }
+    &-2{
+        @include background('/assets/images/avatars/user_girl_02.svg', transparent,100%, 100%);
+    }
+    &-3{
+        @include background('/assets/images/avatars/user_boy_03.svg', transparent,100%, 100%);
+    }
+    &-4{
+        @include background('/assets/images/avatars/user_girl_04.svg', transparent,100%, 100%);
+    }
+    &-5{
+        @include background('/assets/images/avatars/user_girl_05.svg', transparent,100%, 100%);
+    }
+    &-6{
+        @include background('/assets/images/avatars/user_boy_06.svg', transparent,100%, 100%);
+    }
+    &-7{
+        @include background('/assets/images/avatars/user_boy_07.svg', transparent,100%, 100%);
+    }
+    &-8{
+        @include background('/assets/images/avatars/user_boy_08.svg', transparent,100%, 100%);
+    }
+}
+
+.btn-next-sign-up{
+    visibility: hidden;
+}
+
+.frm-footer-avatar{
+    grid-column:1 / 5;
+}

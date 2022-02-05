@@ -1,0 +1,11 @@
+.direction-design{
+    position: fixed;
+    width: 50vmin;
+    height: 50vmin;
+    bottom: -20px;
+    right: 15px;
+}
+
+.title-design-left-right-activity{
+    @include background('/assets/images/utils/leftRight-title.svg', transparent, 45%, 45%);
+}

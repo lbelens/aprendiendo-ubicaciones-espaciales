@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Actividad arriba y abajo</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="header_container-menu">
+            <div class="menu-item menu-item1">
+                <a href="#" class="btn_logo">Janus</a>
+                <!-- home -->
+                <a href="/menu.html" class="header_btn btn_home"></a>
+
+                <!-- botón para el sonido -->
+                <button data-sound='home' class="header_btn btn_sound-enable" id="btn-sound"></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- En esta sección se encuentra la recompensa del juego, que son monedas, aquí aparece la cantidad de monedas que lleva el jugador -->
+    <section class="score-container score-container--activity">
+        <img src="/assets/images/utils/coin.png" class="coin-image">
+        <p class="amount-of-coins">0</p>
+    </section>
+
+ 
+    <div class="container-sea">
+        <div class="sea"></div>
+        <div class="sea-foam"></div>
+    </div>
+    <img class="sun" src="/assets/images/utils/sun.png">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-quarter">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-fifth">
+    <main class="main-central-container">  
+        
+           
+            <div class="title-design title-top-down-activity"></div>
+            <img class="direction-design" src="/assets/images/utils/palm.svg">
+            <a href="leccion.html" class="btn-play"></a>
+    </main>
+    <div class="sand"></div>
+
+    <script src="/scripts/sound.js" ></script>
+</body>
+
+</html>

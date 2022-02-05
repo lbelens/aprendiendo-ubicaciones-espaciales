@@ -1,0 +1,11 @@
+//esta clase es el contenedor general para centrar los diseños de la página index
+.main-central-container{
+    position: absolute;
+    top:25vh; 
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}

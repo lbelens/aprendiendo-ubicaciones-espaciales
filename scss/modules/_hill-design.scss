@@ -1,0 +1,12 @@
+//estilos para crear la colina
+.hill-design{
+    position: fixed;
+    width: 100vw;
+    height: 20vh;
+    border-top-left-radius:500%;
+    border-top-right-radius:500%;
+    transform: scale(1.1, 1.9);
+    background: $grass-color;
+    bottom: 0;
+    z-index: -1;
+}

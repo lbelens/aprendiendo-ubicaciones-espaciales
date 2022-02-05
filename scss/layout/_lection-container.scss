@@ -1,0 +1,9 @@
+.main-lection-container{  
+    top:24vh;
+    display: grid;
+    grid-template: "btn-back  design  btn-forth";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    // background-color: pink;  
+    // z-index: 3;
+}

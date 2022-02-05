@@ -1,0 +1,7 @@
+.perfil{
+    height: 85%;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 30px;
+    @include background('/assets/images/utils/user.png', white,100%, 100%);
+}

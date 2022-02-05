@@ -1,0 +1,40 @@
+.container-direction{
+    width: 500px;
+    height:400px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.base-direction{
+    position: absolute;
+    z-index: 5;
+}
+.btn-right{
+     position: relative;
+      right:-10px;
+      width: 300px;
+      height:300px;
+      @include background('/assets/images/button/btn-right.png', transparent, 100%, 100%);
+    //   background-color: yellow;
+ }
+
+.btn-left{
+    position: relative;
+    left:-20px;
+    top:-50px;
+    width: 300px;
+    height:300px;
+    transition: scale(.5);
+    @include background('/assets/images/button/btn-left.png', transparent, 100%, 100%);
+}
+
+
+
+
+
+ 
+
+
+
+

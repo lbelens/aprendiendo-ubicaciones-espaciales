@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1>
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">  
+    <link rel="shortcut icon" href="/assets/icons/logo.png">
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <title class="title">Inicio de sesión</title>
+</head>
+<body>
+ <!-- Header de la aplicación -->
+ <header class="header">
+    <!-- logo -->
+    <div class="header_container-menu">
+        <div class="menu-item menu-item1">
+            <a href="" class="btn_logo header_btn--hover">Janus</a>
+            
+            <!-- home -->
+            <a href="index.html" class="header_btn btn_home header_btn--hover"></a>
+
+            <!-- botón para el sonido -->
+            <button data-sound='home' class="header_btn btn_sound-enable header_btn--hover" id="btn-sound"></button>
+        </div>
+
+
+        <div class="menu-item menu-item2">
+            <a href="registro.html" class="btn-login btn-sign-up"> Registrar </a>
+        </div>
+    </div>
+</header>
+    <img class="sun" src="/assets/images/utils/sun.png">
+    <img src=" /assets/images/utils/cloud.png" class="cloud cloud-first">
+    <img src="/assets/images/utils/cloud.png" class="cloud cloud-second">
+
+    <main class="main-central-container">
+        <form action="" class="form-login">
+            <div class="form-login_area">
+                <label class="label-login" >Elige tu PIN</label>
+                <div class="form-login_area-pin">
+                    <div class="input-pin">
+                        <button class="btn-delete"></button>
+                    </div>
+                    <button data-number="1" class="num num-1">
+                        <p data-number="1" class="number-text">1</p> <img data-number="1" class="img-figure-pin"
+                            src="/assets/images/numbers/01-bird.png" alt="pájaro">
+                    </button>
+                    <button data-number="2" class="num num-2">
+                        <p data-number="2" class="number-text">2</p> <img data-number="2" class="img-figure-pin"
+                            src="/assets/images/numbers/02-balloon.png" alt="globo">
+                    </button>
+                    <button data-number="3" class="num num-3">
+                        <p data-number="3" class="number-text">3</p> <img data-number="3" class="img-figure-pin"
+                            src="/assets/images/numbers/03-airballoon.png" alt="globo aerostático">
+                    </button>
+                    <button data-number="4" class="num num-4">
+                        <p data-number="4" class="number-text">4</p> <img data-number="4" class="img-figure-pin"
+                            src="/assets/images/numbers/04-sun.png" alt="sol">
+                    </button>
+                    <button data-number="5" class="num num-5">
+                        <p data-number="5" class="number-text">5</p> <img data-number="5" class="img-figure-pin"
+                            src="/assets/images/numbers/05-bee.png" alt="abeja">
+                    </button>
+                    <button data-number="6" class="num num-6">
+                        <p data-number="6" class="number-text">6</p> <img data-number="6" class="img-figure-pin"
+                            src="/assets/images/numbers/06-kite.png" alt="papalote">
+                    </button>
+                    <button data-number="7" class="num num-7">
+                        <p data-number="7" class="number-text">7</p> <img data-number="7" class="img-figure-pin"
+                            src="/assets/images/numbers/07-giraffe.png" alt="jirafa">
+                    </button>
+                    <button data-number="8" class="num num-8">
+                        <p data-number="8" class="number-text">8</p> <img data-number="8" class="img-figure-pin"
+                            src="/assets/images/numbers/08-sunflower.png" alt="girasol">
+                    </button>
+                    <button data-number="9" class="num num-9">
+                        <p data-number="9" class="number-text">9</p> <img data-number="9" class="img-figure-pin"
+                            src="/assets/images/numbers/09-rocket.png" alt="nave    espacial">
+                    </button>
+                    <div class="form-login_footer frm-footer-pin">
+                        <button class="btn-next-form"></button>
+                        <p class="wrong-msj"></p>
+                    </div>
+                </div>
+            </div>
+          
+        </form>
+    </main>
+    
+    <!-- colina -->
+    <div class="hill-design"></div> 
+
+    <script type="module" src="/scripts/login.js"></script>
+    <script src="/scripts/sound.js"></script> 
+    <!-- <script type="module" src="/scripts/autentication.js"></script>   -->
+</body>
+</html>

@@ -1,0 +1,5 @@
+@mixin background($bg-img, $bg-color, $bg-size-w, $bg-size-h){
+    background: url($bg-img) no-repeat $bg-color;
+    background-position: center;
+    background-size:$bg-size-h, $bg-size-w;
+}

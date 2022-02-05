@@ -1,0 +1,30 @@
+.score-container{
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: auto;
+    height: 10vh;
+    margin-top: 10px;
+    padding:5px;
+}
+.coin-image{
+    width: 10vmin;
+    margin-right: 10px;
+}
+
+.amount-of-coins{
+    font-size: 8vmin;
+    color: rgb(32, 32, 32);
+}
+
+.score-container--activity{
+    right: 20px;
+    top:10vh;
+    background:  rgba(255, 255, 255, 0.43);
+}
+.score-container--exercise{
+    left:20px;
+    bottom: 10px;
+}
