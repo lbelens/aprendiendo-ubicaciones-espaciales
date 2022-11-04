@@ -13,3 +13,11 @@ contesta bien un ejercicio, de no ser asi solo le muestra en que se equivocó y 
     <li>Preprocesador SASS</li>
     <li>Firebase</li>
 </ul>
+
+<h2>Interfaz de la aplicación</h2>
+  <div> 
+        <img src="/images/ui_home.JPG" width="400px" heigth="400px" hspace="10px">
+        <img src="/images/ui_actividad_1.JPG" width="400px" heigth="400px" hspace="10px">
+        <img src="/images/ui_actividad_2.JPG" width="400px" heigth="400px" hspace="10px">
+        <img src="/images/ui_actividad_3.JPG" width="400px" heigth="400px" hspace="10px">
+   </div>
